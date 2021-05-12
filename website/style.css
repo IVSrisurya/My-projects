@@ -10,10 +10,12 @@
 }
 header{
 	width: 100%;
-	height: 100vh;
+	height: 800px;
 	opacity: 2;
+	padding-bottom: 10%;
 
 }
+
 .slider {
   width: 90%;
   height: 600px;
@@ -24,6 +26,7 @@ header{
   position: absolute;
   width: 100%;
   height: 100%;
+  padding-bottom: 10%;
 }
 .slide1 {
   background: url('vinayaka.jpg')no-repeat center;
