@@ -1,1 +1,0 @@
-document.getElementById("logo").style.fontsize="35px";
