@@ -1,0 +1,883 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 15px;
+
+}
+li {
+  display: inline;
+}
+li .a1 {
+  display: inline;
+  padding-right: 25px;
+}
+@keyframes back{  
+  0%   {background-image: url('background2.jpg');opacity: 1;}
+  20%  {background-image: url('ayodhya.jpg');background-color: rgba(0,0,0,0);}
+  40%  {background-image: url('vinayak.jpg');opacity: 1;}
+  60% {background-image: url('ganga.jpg');background-color: rgba(0,0,0,0);}
+  80% {background-image: url('dwaraka.jpg');opacity: 1;}
+  100% {background-image: url('dwaraka.jpg');background-color: rgba(0,0,0,0);}
+
+}
+header{
+  width: 100%;
+  height: 500px;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  background-image: url('background2.jpg');
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+
+}
+nav{
+  padding-top: 3px;
+padding-bottom: 5%;
+background-color:  #ffc13b;
+}
+#logo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 46%;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 2em;
+  /*text-shadow: rgb(1,1,1);*/
+  text-transform: uppercase;
+  font-weight: bold;
+  /*text-shadow: 2px 2px 2px #200;*/
+  font-family: "Times New Roman", Times, serif;
+  
+
+}
+body{
+  /*background-color: #f5f0e1;*/
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+main{
+  padding-top: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 30%;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+}
+.slider {
+  width: 65%;
+  height: 500px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  border-color: #1e3d59;
+  background-color: #F0FFFF;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1%;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 40px;
+}
+.slide1 {
+  background: url('background2.jpg')no-repeat center;
+  background-size: 100% 100%;
+  animation:fade 16s infinite;
+  -webkit-animation:fade 16s infinite;
+
+} 
+.slide2 {
+  background: url('ganga.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade2 16s infinite;
+-webkit-animation:fade2 16s infinite;
+}
+.slide3 {
+    background: url('dwaraka.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade3 16s infinite;
+-webkit-animation:fade3 16s infinite;
+}
+.slide4 {
+    background: url('ayodhya.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade4 16s infinite;
+-webkit-animation:fade4 16s infinite;
+}
+.slide5 {
+    background: url('slide.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade5 16s infinite;
+-webkit-animation:fade5 16s infinite;
+}
+.slide6 {
+    background: url('slide1.jpg')no-repeat center;
+      background-size: 50% 100%;
+    animation:fade6 16s infinite;
+-webkit-animation:fade6 16s infinite;
+}
+.slide7 {
+    background: url('slide2.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade7 16s infinite;
+-webkit-animation:fade7 16s infinite;
+}
+.slide8 {
+    background: url('slide4.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade8 16s infinite;
+-webkit-animation:fade8 16s infinite;
+}
+.slide9 {
+    background: url('slide3.jpg')no-repeat center;
+      background-size: 50% 100%;
+    animation:fade9 16s infinite;
+-webkit-animation:fade9 16s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+ 0%   {opacity:0}
+  11% { opacity: 1}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 1}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade4
+{
+ 0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 1}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
+}
+@keyframes fade5
+{
+ 0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 1}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
+}
+@keyframes fade6
+{
+ 0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 1}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
+}
+@keyframes fade7
+{
+ 0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 1}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
+}
+@keyframes fade8
+{
+ 0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 1}
+  88% { opacity: 0}
+   100% {opacity: 0}
+}
+@keyframes fade9
+{
+ 0%   {opacity:0}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 1}
+   100% {opacity: 0}
+}
+.History :hover {
+    transform:  scale(0.8);
+
+}
+.sages :hover {
+    transform:  scale(0.8);
+}
+.acharyas :hover {
+    transform:  scale(0.8);
+}
+.Scientists :hover {
+    transform:  scale(0.8);
+}
+.kings :hover {
+    transform:  scale(0.8);
+}
+.warriors :hover {
+    transform:  scale(0.8);
+}
+.poets :hover {
+    transform:  scale(0.8);
+}
+.Vedas :hover{
+  transform: scale(0.8);
+}
+img{
+  border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+}
+.History, .sages ,.acharyas ,.Scientists, .kings, .warriors, .poets, .Vedas{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 30%;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: -1px 0 1px #FFFAF0;
+  margin-top: 60px;
+  color: whitesmoke;
+
+}
+.hed{
+  font-size: 2em;
+  font-weight: 400;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+@media(hover: hover){
+  .History :hover {
+    transform:  scale(0.8);
+
+}
+.sages :hover {
+    transform:  scale(0.8);
+}
+.acharyas :hover {
+    transform:  scale(0.8);
+}
+.Scientists :hover {
+    transform:  scale(0.8);
+}
+.kings :hover {
+    transform:  scale(0.8);
+}
+.warriors :hover {
+    transform:  scale(0.8);
+}
+.poets :hover {
+    transform:  scale(0.8);
+}
+.Vedas :hover{
+  transform: scale(0.8);
+}
+}
+@media (min-width: 1200px){
+nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+nav #logo{
+  width: 47%;
+  font-size: 2em;
+  text-shadow: rgb(1,1,1);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #200;
+  font-family: "Times New Roman", Times, serif;
+    
+}
+
+nav .menu{
+  width: 20%;
+  text-align: center;
+  font-size:1.7em;
+  text-shadow: rgb(0,0,1);
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  color:black;
+  float: right;
+}
+li .a2 {
+  width: 20px;
+  height: 20px;
+}
+/*.History{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.sages{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.acharyas{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.Scientists{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.kings{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.warriors{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.poets{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+}
+li .a2 {
+  width: 18px;
+  height: 18px;
+}*/
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav #logo{
+  padding-top: 10px;
+  width: 45%;
+  font-size: 1.3em;
+  text-shadow: rgb(1,1,1);
+  text-transform: uppercase;
+    font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 2rem;
+}
+
+nav .menu{
+  width: 17%;
+  text-align: center;
+  font-size:1.2em;
+  text-shadow: rgb(0,0,1);
+  text-transform: uppercase;
+    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+   
+}
+/*.History{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.sages{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.acharyas{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.Scientists{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.kings{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.warriors{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.poets{
+  text-align: center;
+    width: 32%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+li .a2 {
+  width: 16px;
+  height: 16px;
+}
+*/}
+@media (min-width: 768px) and (max-width: 991px){
+nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav #logo{
+  padding-top: 10px;
+  width: 47%;
+  font-size: 1em;
+  /*text-shadow: rgb(1,1,1);*/
+  text-transform: uppercase;
+    font-weight: bold;
+  /*text-shadow: 2px 2px 2px #200;*/
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav .menu{
+  width: 17%;
+  text-align: center;
+  font-size:1em;
+  text-shadow: rgb(0,0,1);
+  text-transform: uppercase;
+    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+/*.History{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.sages{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.acharyas{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.Scientists{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.kings{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.warriors{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.poets{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+li .a2 {
+  width: 14px;
+  height: 14px;
+}
+*/}
+
+@media (min-width: 768px) and (max-width: 991px){
+nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav #logo{
+  padding-top: 10px;
+  width: 47%;
+  font-size: 1em;
+  /*text-shadow: rgb(1,1,1);*/
+  text-transform: uppercase;
+    font-weight: bold;
+  /*text-shadow: 2px 2px 2px #200;*/
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav .menu{
+  width: 17%;
+  text-align: center;
+  font-size:1em;
+  text-shadow: rgb(0,0,1);
+  text-transform: uppercase;
+    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+/*.History{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.sages{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.acharyas{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.Scientists{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.kings{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.warriors{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+
+}
+.poets{
+  text-align: center;
+    width: 44%;
+    align-self: center;
+    float: left;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+li .a2 {
+  width: 14x;
+  height: 14px;
+}
+*/}
+@media (max-width: 767px){
+  nav{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+nav #logo{
+  padding-top: 10px;
+  width: 75%;
+  text-align: left;
+  font-size: 1em;
+  /*text-shadow: rgb(1,1,1);*/
+  text-transform: uppercase;
+    font-weight: bold;
+  /*text-shadow: 2px 2px 2px #200;*/
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav .menu{
+  width: 22%;
+  font-size:0.8em;
+  text-shadow: rgb(0,0,1);
+  text-transform: uppercase;
+    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+/*.History{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.sages{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.acharyas{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.Scientists{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.kings{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.warriors{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.poets{
+  text-align: center;
+    width: 95%;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+li .a2 {
+  width: 12px;
+  height: 12px;
+}
+*/
+.slider {
+  width: 85%;
+  height: 400px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  border-color: #1e3d59;
+  background-color: #F0FFFF;
+}
+
+}

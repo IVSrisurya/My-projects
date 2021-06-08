@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url('background_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+
+}
+.sub_1{
+	text-align: center;
+  	width: 100%;
+  	align-self: center;
+  	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+h1{
+	text-align: center;
+	align-self: center;
+	font-size: 3em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+}
+.amma{
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  min-width: 400px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: -1px 0 1px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.abt{
+	padding-top: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 30%;
+}
+.surya, .spandana, .Priya ,.Sreehari, .principal, .director{
+	display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 30%;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: -1px 0 1px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+}
+@media (min-width: 1200px){
+.surya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Priya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	float: left;
+  	
+}
+.principal{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	float: left;
+}
+.director{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	float: left;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+.surya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Priya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.principal{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.director{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.surya{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: right;
+  	text-shadow: 1px 1px 1px #222;
+  	/*margin-top: 5px;*/
+  	/*padding-top: 20px;*/
+}
+.Priya{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: right;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-bottom: 5px;
+}
+.principal{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.director{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+}
+@media (max-width: 767px) {
+.surya{
+	width: 90%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 90%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	/*filter: brightness(2.1200);*/
+}
+.Priya{
+	width: 90%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 90%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.principal{
+	width: 90%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.director{
+	width: 90%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+}
