@@ -122,103 +122,103 @@ main{
     animation:fade6 16s infinite;
 -webkit-animation:fade6 16s infinite;
 }
-.slide7 {
+/*.slide7 {
     background: url('slide2.jpg')no-repeat center;
       background-size: 100% 100%;
     animation:fade7 16s infinite;
 -webkit-animation:fade7 16s infinite;
-}
+}*/
 .slide8 {
     background: url('slide4.jpg')no-repeat center;
       background-size: 100% 100%;
     animation:fade8 16s infinite;
 -webkit-animation:fade8 16s infinite;
 }
-.slide9 {
+/*.slide9 {
     background: url('slide3.jpg')no-repeat center;
       background-size: 50% 100%;
     animation:fade9 16s infinite;
 -webkit-animation:fade9 16s infinite;
-}
+}*/
 @keyframes fade
 {
   0%   {opacity:1}
-  11% { opacity: 0}
-  22% { opacity: 0}
-  33% {opacity: 0}
-  44% { opacity: 0}
-  55% { opacity: 0}
-  66% { opacity: 0}
-  77% { opacity: 0}
-  88% { opacity: 0}
+  13% { opacity: 0}
+  26% { opacity: 0}
+  39% {opacity: 0}
+  52% { opacity: 0}
+  65% { opacity: 0}
+  78% { opacity: 0}
+  91% { opacity: 1}
   100% { opacity: 1}
+  /*100% { opacity: 1}*/
 }
 @keyframes fade2
 {
  0%   {opacity:0}
-  11% { opacity: 1}
-  22% { opacity: 0}
-  33% {opacity: 0}
-  44% { opacity: 0}
-  55% { opacity: 0}
-  66% { opacity: 0}
-  77% { opacity: 0}
-  88% { opacity: 0}
+  13% { opacity: 1}
+  26% { opacity: 0}
+  39% {opacity: 0}
+  52% { opacity: 0}
+  65% { opacity: 0}
+  78% { opacity: 0}
+  91% { opacity: 0}
   100% { opacity: 0}
+  /*100% { opacity: 0}*/
 }
 @keyframes fade3
 {
   0%   {opacity:0}
-  11% { opacity: 0}
-  22% { opacity: 1}
-  33% {opacity: 0}
-  44% { opacity: 0}
-  55% { opacity: 0}
-  66% { opacity: 0}
-  77% { opacity: 0}
-  88% { opacity: 0}
+  13% { opacity: 0}
+  26% { opacity: 1}
+  39% {opacity: 0}
+  52% { opacity: 0}
+  65% { opacity: 0}
+  78% { opacity: 0}
+  91% { opacity: 0}
   100% { opacity: 0}
+  /*100% { opacity: 0}*/
 }
 @keyframes fade4
 {
  0%   {opacity:0}
-  11% { opacity: 0}
-  22% { opacity: 0}
-  33% {opacity: 1}
-  44% { opacity: 0}
-  55% { opacity: 0}
-  66% { opacity: 0}
-  77% { opacity: 0}
-  88% { opacity: 0}
-   100% {opacity: 0}
+  13% { opacity: 0}
+  26% { opacity: 0}
+  39% {opacity: 1}
+  52% { opacity: 0}
+  65% { opacity: 0}
+  78% { opacity: 0}
+  91% { opacity: 0}
+  100% { opacity: 0}
+   /*100% {opacity: 0}*/
 }
 @keyframes fade5
 {
  0%   {opacity:0}
-  11% { opacity: 0}
-  22% { opacity: 0}
-  33% {opacity: 0}
-  44% { opacity: 1}
-  55% { opacity: 0}
-  66% { opacity: 0}
-  77% { opacity: 0}
-  88% { opacity: 0}
-   100% {opacity: 0}
+  13% { opacity: 0}
+  26% { opacity: 0}
+  39% {opacity: 0}
+  52% { opacity: 1}
+  65% { opacity: 0}
+  78% { opacity: 0}
+  91% { opacity: 0}
+  100% { opacity: 0}
+   /*100% {opacity: 0}*/
 }
 @keyframes fade6
 {
  0%   {opacity:0}
-  11% { opacity: 0}
-  22% { opacity: 0}
-  33% {opacity: 0}
-  44% { opacity: 0}
-  55% { opacity: 1}
-  66% { opacity: 0}
-  77% { opacity: 0}
-  88% { opacity: 0}
-   100% {opacity: 0}
+  13% { opacity: 0}
+  26% { opacity: 0}
+  39% {opacity: 0}
+  52% { opacity: 0}
+  65% { opacity: 1}
+  78% { opacity: 0}
+  91% { opacity: 0}
+  100% { opacity: 0}
+   /*100% {opacity: 0}*/
 }
-@keyframes fade7
+/*@keyframes fade7
 {
  0%   {opacity:0}
   11% { opacity: 0}
@@ -230,21 +230,21 @@ main{
   77% { opacity: 0}
   88% { opacity: 0}
    100% {opacity: 0}
-}
+}*/
 @keyframes fade8
 {
  0%   {opacity:0}
-  11% { opacity: 0}
-  22% { opacity: 0}
-  33% {opacity: 0}
-  44% { opacity: 0}
-  55% { opacity: 0}
-  66% { opacity: 0}
-  77% { opacity: 1}
-  88% { opacity: 0}
-   100% {opacity: 0}
+  13% { opacity: 0}
+  26% { opacity: 0}
+  39% {opacity: 0}
+  52% { opacity: 0}
+  65% { opacity: 0}
+  78% { opacity: 1}
+  91% { opacity: 0}
+  100% { opacity: 0}
+   /*100% {opacity: 0}*/
 }
-@keyframes fade9
+/*@keyframes fade9
 {
  0%   {opacity:0}
   11% { opacity: 0}
@@ -256,7 +256,7 @@ main{
   77% { opacity: 0}
   88% { opacity: 1}
    100% {opacity: 0}
-}
+}*/
 .History :hover {
     transform:  scale(0.8);
 
@@ -371,6 +371,16 @@ li .a2 {
   width: 20px;
   height: 20px;
 }
+.slider {
+  width: 75%;
+  height: 450px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  border-color: #1e3d59;
+  background-color: #F0FFFF;
+}
+
 /*.History{
   text-align: center;
     width: 32%;
@@ -476,9 +486,11 @@ nav #logo{
     font-weight: bold;
   text-shadow: 1px 1px 1px #000;
   font-family: "Times New Roman", Times, serif;
-  word-spacing: 2rem;
+  word-spacing: 1rem;
 }
-
+nav #logo .loghead{
+  padding-top: 32px;
+}
 nav .menu{
   width: 17%;
   text-align: center;
@@ -490,6 +502,16 @@ nav .menu{
   justify-content: space-between;
    
 }
+.slider {
+  width: 75%;
+  height: 350px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  border-color: #1e3d59;
+  background-color: #F0FFFF;
+}
+
 /*.History{
   text-align: center;
     width: 32%;
@@ -575,7 +597,7 @@ nav{
 }
 nav #logo{
   padding-top: 10px;
-  width: 47%;
+  width: 57%;
   font-size: 1em;
   /*text-shadow: rgb(1,1,1);*/
   text-transform: uppercase;
@@ -585,15 +607,29 @@ nav #logo{
 }
 
 nav .menu{
-  width: 17%;
+  width: 27%;
   text-align: center;
-  font-size:1em;
+  font-size:1.6em;
   text-shadow: rgb(0,0,1);
   text-transform: uppercase;
     font-weight: bold;
   display: flex;
   justify-content: space-between;
 }
+nav #logo .loghead{
+  padding-top: 35px;
+  font-size: 1.5em;
+}
+.slider {
+  width: 75%;
+  height: 360px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  border-color: #1e3d59;
+  background-color: #F0FFFF;
+}
+
 /*.History{
   text-align: center;
     width: 44%;
@@ -680,7 +716,7 @@ nav{
 }
 nav #logo{
   padding-top: 10px;
-  width: 47%;
+  width: 57%;
   font-size: 1em;
   /*text-shadow: rgb(1,1,1);*/
   text-transform: uppercase;
@@ -692,13 +728,23 @@ nav #logo{
 nav .menu{
   width: 17%;
   text-align: center;
-  font-size:1em;
+  font-size:1.3em;
   text-shadow: rgb(0,0,1);
   text-transform: uppercase;
     font-weight: bold;
   display: flex;
   justify-content: space-between;
 }
+.slider {
+  width: 80%;
+  height: 330px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 20px;
+  border-color: #1e3d59;
+  background-color: #F0FFFF;
+}
+
 /*.History{
   text-align: center;
     width: 44%;
@@ -784,7 +830,7 @@ li .a2 {
 }
 nav #logo{
   padding-top: 10px;
-  width: 75%;
+  width: 55%;
   text-align: left;
   font-size: 1em;
   /*text-shadow: rgb(1,1,1);*/
@@ -796,7 +842,7 @@ nav #logo{
 
 nav .menu{
   width: 22%;
-  font-size:0.8em;
+  font-size:1.3em;
   text-shadow: rgb(0,0,1);
   text-transform: uppercase;
     font-weight: bold;
@@ -872,12 +918,16 @@ li .a2 {
 */
 .slider {
   width: 85%;
-  height: 400px;
+  height: 300px;
   margin: 20px auto;
   position: relative;
   border-radius: 20px;
   border-color: #1e3d59;
   background-color: #F0FFFF;
+}
+nav #logo .loghead{
+  padding-top: 35px;
+  font-size: 1.3em;
 }
 
 }
