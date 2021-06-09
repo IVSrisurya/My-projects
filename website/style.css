@@ -122,103 +122,103 @@ main{
     animation:fade6 16s infinite;
 -webkit-animation:fade6 16s infinite;
 }
-/*.slide7 {
-    background: url('slide2.jpg')no-repeat center;
+.slide7 {
+    background: url('slide10.jpeg')no-repeat center;
       background-size: 100% 100%;
     animation:fade7 16s infinite;
 -webkit-animation:fade7 16s infinite;
-}*/
+}
 .slide8 {
     background: url('slide4.jpg')no-repeat center;
       background-size: 100% 100%;
     animation:fade8 16s infinite;
 -webkit-animation:fade8 16s infinite;
 }
-/*.slide9 {
-    background: url('slide3.jpg')no-repeat center;
+.slide9 {
+    background: url('slide11.jpeg')no-repeat center;
       background-size: 50% 100%;
     animation:fade9 16s infinite;
 -webkit-animation:fade9 16s infinite;
-}*/
+}
 @keyframes fade
 {
   0%   {opacity:1}
-  13% { opacity: 0}
-  26% { opacity: 0}
-  39% {opacity: 0}
-  52% { opacity: 0}
-  65% { opacity: 0}
-  78% { opacity: 0}
-  91% { opacity: 1}
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
   100% { opacity: 1}
-  /*100% { opacity: 1}*/
 }
 @keyframes fade2
 {
  0%   {opacity:0}
-  13% { opacity: 1}
-  26% { opacity: 0}
-  39% {opacity: 0}
-  52% { opacity: 0}
-  65% { opacity: 0}
-  78% { opacity: 0}
-  91% { opacity: 0}
+  11% { opacity: 1}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
   100% { opacity: 0}
-  /*100% { opacity: 0}*/
 }
 @keyframes fade3
 {
   0%   {opacity:0}
-  13% { opacity: 0}
-  26% { opacity: 1}
-  39% {opacity: 0}
-  52% { opacity: 0}
-  65% { opacity: 0}
-  78% { opacity: 0}
-  91% { opacity: 0}
+  11% { opacity: 0}
+  22% { opacity: 1}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
   100% { opacity: 0}
-  /*100% { opacity: 0}*/
 }
 @keyframes fade4
 {
  0%   {opacity:0}
-  13% { opacity: 0}
-  26% { opacity: 0}
-  39% {opacity: 1}
-  52% { opacity: 0}
-  65% { opacity: 0}
-  78% { opacity: 0}
-  91% { opacity: 0}
-  100% { opacity: 0}
-   /*100% {opacity: 0}*/
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 1}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
 }
 @keyframes fade5
 {
  0%   {opacity:0}
-  13% { opacity: 0}
-  26% { opacity: 0}
-  39% {opacity: 0}
-  52% { opacity: 1}
-  65% { opacity: 0}
-  78% { opacity: 0}
-  91% { opacity: 0}
-  100% { opacity: 0}
-   /*100% {opacity: 0}*/
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 1}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
 }
 @keyframes fade6
 {
  0%   {opacity:0}
-  13% { opacity: 0}
-  26% { opacity: 0}
-  39% {opacity: 0}
-  52% { opacity: 0}
-  65% { opacity: 1}
-  78% { opacity: 0}
-  91% { opacity: 0}
-  100% { opacity: 0}
-   /*100% {opacity: 0}*/
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 1}
+  66% { opacity: 0}
+  77% { opacity: 0}
+  88% { opacity: 0}
+   100% {opacity: 0}
 }
-/*@keyframes fade7
+@keyframes fade7
 {
  0%   {opacity:0}
   11% { opacity: 0}
@@ -230,21 +230,21 @@ main{
   77% { opacity: 0}
   88% { opacity: 0}
    100% {opacity: 0}
-}*/
+}
 @keyframes fade8
 {
  0%   {opacity:0}
-  13% { opacity: 0}
-  26% { opacity: 0}
-  39% {opacity: 0}
-  52% { opacity: 0}
-  65% { opacity: 0}
-  78% { opacity: 1}
-  91% { opacity: 0}
-  100% { opacity: 0}
-   /*100% {opacity: 0}*/
+  11% { opacity: 0}
+  22% { opacity: 0}
+  33% {opacity: 0}
+  44% { opacity: 0}
+  55% { opacity: 0}
+  66% { opacity: 0}
+  77% { opacity: 1}
+  88% { opacity: 0}
+   100% {opacity: 0}
 }
-/*@keyframes fade9
+@keyframes fade9
 {
  0%   {opacity:0}
   11% { opacity: 0}
@@ -256,7 +256,7 @@ main{
   77% { opacity: 0}
   88% { opacity: 1}
    100% {opacity: 0}
-}*/
+}
 .History :hover {
     transform:  scale(0.8);
 
