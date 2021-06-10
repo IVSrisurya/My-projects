@@ -2,10 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-image: url('background_1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
     background-attachment: fixed;
+
+}
+body{
+	background-image: url('background_1.jpg');
 
 }
 .sub_1{
@@ -38,6 +41,7 @@ h1{
   text-align: center;
   align-items: center;
   align-content: center;
+  padding-bottom: 10px;
 }
 .abt{
 	padding-top: 6%;
@@ -95,7 +99,7 @@ h1{
   	text-shadow: 1px 1px 1px #222;
 }
 .Sreehari{
-	width: 32%;
+	width: 40%;
 	text-align: center;
 	align-self: center;
 	font-size: 1.5em;
@@ -104,10 +108,15 @@ h1{
   	font-weight: bold;
   	text-shadow: 1px 1px 1px #222;
   	float: left;
+  	margin: auto;
   	
 }
+.Sreehari img{
+	height: 220px;
+	
+}
 .principal{
-	width: 32%;
+	width: 42%;
 	text-align: center;
 	align-self: center;
 	font-size: 1.5em;
@@ -116,9 +125,10 @@ h1{
   	font-weight: bold;
   	text-shadow: 1px 1px 1px #222;
   	float: left;
+  	margin: auto;
 }
 .director{
-	width: 32%;
+	width: 42%;
 	text-align: center;
 	align-self: center;
 	font-size: 1.5em;
@@ -127,6 +137,7 @@ h1{
   	font-weight: bold;
   	text-shadow: 1px 1px 1px #222;
   	float: left;
+  	margin: auto;
 }
 .amma{
   flex-direction: column;
@@ -141,6 +152,28 @@ h1{
   text-align: center;
   align-items: center;
   align-content: center;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 62%; 
+	 height: 25vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 42%; height: 100%;
+	 background-color: #f90680;
+}.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 36vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 41%; height: 100%;
 }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -187,6 +220,7 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
 }
 .principal{
 	width: 32%;
@@ -198,6 +232,7 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
 }
 .director{
 	width: 32%;
@@ -209,6 +244,8 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+
 }
 .amma{
   flex-direction: column;
@@ -224,41 +261,63 @@ h1{
   align-items: center;
   align-content: center;
 }
+.img1{
+	 padding-top: 20px;
+	 width: 62%; 
+	 height: 25vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 42%; height: 100%;
+	 background-color: #f90680;
+}.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 30vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 45%; height: 100%;
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
 .surya{
-	width: 44%;
+	width: 54%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
 	text-shadow: rgb(0,0,1);
 	text-transform: uppercase;
   	font-weight: bold;
-  	float: left;
+  	/*float: left;*/margin: auto;
   	text-shadow: 1px 1px 1px #222;
 }
 .spandana{
-	width: 44%;
+	width: 54%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
 	text-shadow: rgb(0,0,1);
 	text-transform: uppercase;
   	font-weight: bold;
-  	float: right;
+  	/*float: right;*/margin: auto;
   	text-shadow: 1px 1px 1px #222;
   	/*margin-top: 5px;*/
   	/*padding-top: 20px;*/
 }
 .Priya{
-	width: 44%;
+	width: 54%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
 	text-shadow: rgb(0,0,1);
 	text-transform: uppercase;
   	font-weight: bold;
-  	float: right;
+  	/*float: right;*/margin: auto;
   	text-shadow: 1px 1px 1px #222;
 }
 .Sreehari{
@@ -272,6 +331,7 @@ h1{
   	float: left;
   	text-shadow: 1px 1px 1px #222;
   	margin-bottom: 5px;
+  	margin: auto;
 }
 .principal{
 	width: 44%;
@@ -283,6 +343,7 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
 }
 .director{
 	width: 44%;
@@ -294,11 +355,35 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 62%; 
+	 height: 35vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 42%; height: 100%;
+	 background-color: #f90680;
+}
+.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 30vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 45%; height: 100%;
 }
 }
 @media (max-width: 767px) {
 .surya{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
@@ -307,9 +392,13 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.surya img{
+	width:  35%;
 }
 .spandana{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
@@ -319,9 +408,13 @@ h1{
   	float: left;
   	text-shadow: 1px 1px 1px #222;
   	/*filter: brightness(2.1200);*/
+  	margin: auto;
+}
+.spandana img{
+	width: 35%;
 }
 .Priya{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
@@ -330,9 +423,13 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.Priya img{
+	width: 35%;
 }
 .Sreehari{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
@@ -341,9 +438,12 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari img{
+	width: 30%;
 }
 .principal{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
@@ -352,9 +452,10 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
 }
 .director{
-	width: 90%;
+	width: 100%;
 	text-align: center;
 	align-self: center;
 	font-size: 1em;
@@ -363,9 +464,33 @@ h1{
   	font-weight: bold;
   	float: left;
   	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
 }
 .amma img{
   width: 50%;
   height: 70%;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 82%; 
+	 height: 20vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 52%; height: 100%;
+	 background-color: #f90680;
+}
+.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 30vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 45%; height: 100%;
 }
 }
