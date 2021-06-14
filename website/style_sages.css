@@ -27,7 +27,7 @@ main{
   color : white; 
   border-style: solid;
   border-color: white;
-  border-radius: 40px;>
+  border-radius: 40px;
 }
 .card-list{
   display: flex;

@@ -4,8 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*background-color: darkred;*/
 }
-
+html{
+}
 body,
 input,
 textarea {
@@ -64,7 +66,7 @@ textarea {
 .contact-form:before {
   content: "";
   position: absolute;
-  width: 26px;
+  width: 36px;
   height: 26px;
   background-color: #1abc9c;
   transform: rotate(45deg);
