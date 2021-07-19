@@ -48,96 +48,8 @@
             This website is made as a project of Cultural Education II. The content added here is primitive. We welcome your constructive Feedback.
           </marquee>
       
-          <main>
-            <section class="History" >
-              <a href="history.html"><img src="his.jpg" width="100%" height="400px" ><div class="hed">
-                
-                Glorious History
-                
-              </div>
-              </a>
-            </section>
-            <section class="Vedas" >
-              <a href="Vedas.html"><img src="vedas.jpg" width="100%" height="400px" ><div class="hed">
-                Vedic Literature
-                
-              </div>
-              </a>
-            </section>
-            <section class="sages">
-                <a href="sages.html"><img src="Vyasa.jpg" width="100%" height="400px">
-              <div class="hed">
-                
-                Glorious Sages
-                
-              </div>
-              </a>
-              
-            </section>
-            <section class="acharyas">
-                <a href="Acharayas.html"><img src="acarya.jpg" width="100%" height="400px">
-                  <div class="hed">
-                
-                Glorious Acharyas
-                
-              </div>
-              </a>
-              
-            </section>
-            <section class="Scientists">
-              <a href="Scientists.html"><img src="scientists.jpg" width="100%" height="400px">
-                <div class="hed">
-                
-                Glorious Scientists
-                
-              </div>
-                </a>
-              
-            </section>
-            <section class="kings">
-                <a href="kings.html"><img src="kings.jpg" width="100%" height="400px">
-                  <div class="hed">
-                
-                Glorious kings
-                
-              </div>
-                </a>
-              
-              
-            </section>
-            <section class="warriors">
-              <a href="warriors.html"><img src="warriors.jpg" width="100%" height="400px">
-                <div class="hed">
-                
-                Glorious warriors
-                
-              </div>
-                </a>
-             
-              
-            </section>
-            <section class="poets">
-                <a href="poets.html"><img src="poets.jpg" width="100%" height="400px">
-                  <div class="hed">
-                
-                Glorious poets
-                
-              </div>
-              </a>
-              <br>
-            </section>
-            
-            <section class="poets">
-                <a href="stup.html"><img src="stup.jpg" width="100%" height="400px">
-                  <div class="hed">
-                
-                Students Projects
-                
-              </div>
-              </a>
-              <br>
-            </section>
-            
+          <main id="container">
+          
           </main>
           <div style="padding:20px;">
           <div style="text-align:right; font-size:1.5em;font-weight: 200;width: 45%;position: relative;float: right;">
@@ -153,4 +65,18 @@
 
     <div></div>
         <div></div><div></div><p><p></p></p>
+        <script >
+          const xhr = new XMLHttpRequest();
+          const container = document.getElementById('container');
+          xhr.onload = function(){
+            if(this.status === 200){
+              container.innerHTML = xhr.responseText;
+            }else{
+              console.warn('error');
+            }
+          };
+          const url = 'https://raw.githubusercontent.com/IVSrisurya/My-projects/gh-pages/website/snip.html';
+          xhr.open('get',url);
+          xhr.send();
+        </script>
 </html>
