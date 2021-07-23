@@ -358,7 +358,10 @@ nav #logo{
   font-family: "Times New Roman", Times, serif;
     
 }
-
+nav #logo .loghead{
+  padding-top: 35px;
+  font-size: 3rem;
+}
 nav .menu{
   width: 20%;
   text-align: center;
@@ -380,7 +383,7 @@ li .a2 {
   height: 470px;
   margin: 20px auto;
   position: relative;
-  border-radius: 20px;
+  border-radius: 40px;
   border-color: #1e3d59;
   background-color: #F0FFFF;
 }
@@ -511,7 +514,7 @@ nav .menu{
   height: 350px;
   margin: 20px auto;
   position: relative;
-  border-radius: 20px;
+  border-radius: 40px;
   border-color: #1e3d59;
   background-color: #F0FFFF;
 }
@@ -629,7 +632,7 @@ nav #logo .loghead{
   height: 360px;
   margin: 20px auto;
   position: relative;
-  border-radius: 20px;
+  border-radius: 40px;
   border-color: #1e3d59;
   background-color: #F0FFFF;
 }
@@ -744,7 +747,7 @@ nav .menu{
   height: 330px;
   margin: 20px auto;
   position: relative;
-  border-radius: 20px;
+  border-radius: 40px;
   border-color: #1e3d59;
   background-color: #F0FFFF;
 }
@@ -925,7 +928,7 @@ li .a2 {
   height: 300px;
   margin: 20px auto;
   position: relative;
-  border-radius: 20px;
+  border-radius: 40px;
   border-color: #1e3d59;
   background-color: #F0FFFF;
 }

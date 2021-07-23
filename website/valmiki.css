@@ -25,6 +25,8 @@ h5{
 }
 p{
 	line-height: 1.5em;
+	justify-content: space-between;
+	text-align: justify-all;
 }
 img{
 	border-radius: 10px;
