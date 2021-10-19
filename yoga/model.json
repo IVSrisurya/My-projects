@@ -1,4 +1,4 @@
-Access-Control-Allow-Origin: *
+header("Access-Control-Allow-Origin: *");
 {
 	"modelTopology": {
 		"class_name": "Sequential",
