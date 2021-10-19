@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Disease</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+	<style>
+		input[type=text] {
+  float: center;
+  padding: 6px;
+  /*border: none;*/
+  margin-top: 8px;
+  margin-right: 6px;
+  font-size: 25px;
+}
+html{
+	background-color:bisque;
+}
+
+	</style>
+</head>
+<div class="navbar-list" id = "hamburger">
+		<button class="open_btn" onclick ="openmenu()">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		</button>
+	</div>
+	<div id="navlist"  style="text-decoration:none;" ng-app="sel" ng-controller="myctrl">
+		<button class="clos_btn" onclick="closemenu()">&times;</button>
+		<a href="index.html" style="text-decoration: none;"> <div >Home</div></a>
+		<a href="about.html" style="text-decoration: none;"><div >About Us</div></a>
+		<a href="comments.html" style="text-decoration: none;"><div >Contact Us </div></a><!-- 
+		<a href="comments.html" style="text-decoration: none;"><div >Students Corner </div></a>
+		<a href="comments.html" style="text-decoration: none;"><div >Books Review </div></a> -->
+		<!-- <select ng-model="selectfrom" ng-options="x for x in names"></select> -->
+	</div>
+<nav>
+	<div class="navheading">
+		Diseases cured by Yoga
+	</div>
+</nav>
+<body>
+	
+<div style="text-align: right;margin: auto;">
+  <input type="text" placeholder="Search.." id="searching" style="border-color: black;border-width: 20px;">
+  <span><button onclick="load_page()" style="font-size:25px;">go</button></span>
+</div>
+
+<div style="width:60%;margin:auto;font-size: 20px;display: flex;flex-wrap: wrap;justify-content: space-between;padding-top: 30px;flex-direction: column;text-align: left;">
+	<div style="display: flex;flex-wrap: wrap;justify-content: space-between;padding-top: 30px;">
+	<a href="Asthma.html">Asthma</a>
+	<a href="Cancer.html">Cancer</a>
+	<a href="Diabetes.html">Diabetes</a>
+	<a href="Blood Pressure.html">Blood Pressure</a>
+</div>
+<div style="display: flex;flex-wrap: wrap;justify-content: space-between;padding-top: 30px;">
+	<a href="Arthritis.html">Arthritis</a>
+	<a href="Liver.html">Liver Problems</a>
+	<a href="Hypertension.html">Hypertension</a>
+	<a href="Lower.html">Lower Back Pain</a>
+</div>
+<div style="display: flex;flex-wrap: wrap;justify-content: space-between;padding-top: 30px;">
+	<a href="Heart.html">Heart Disease</a>
+	<a href="Migraine.html">Migraine</a>
+	<a href="Obesity.html">Obesity</a>
+	<a href="Depression.html">Depression</a>
+</div>
+</div>
+
+<script src="js/script.js">
+</script>
+</body>
+</html>
